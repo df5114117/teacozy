@@ -9,6 +9,7 @@ body{
   margin: 0
 }
 
+
 /* Header */
 
 
@@ -19,7 +20,6 @@ header{
   border-bottom: 1px solid white;
   width: 100%;
 }
-
 
 .logo img{
   height: 50px;
@@ -36,4 +36,41 @@ nav span{
 
 a{
   color: seashell;
+}
+
+/* Body */
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  /* Mission */
+.missions{
+  display: flex;
+  height:700px;
+  background-image: url('../img-mission-background.jpg');
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.statement, .list{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 3px solid white; */
+  height: 50px;
+  width: 1200px;
+}
+
+
+.mission-text{
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
 }
